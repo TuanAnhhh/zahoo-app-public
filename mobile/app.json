@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "KIT_APP",
+    "slug": "KIT_APP",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "CAMERA",
+        "CAMERA_ROLL",
+        "INTERNET",
+        "MEDIA_LIBRARY",
+        "MODIFY_AUDIO_SETTINGS",
+        "READ_CONTACTS",
+        "READ_EXTERNAL_STORAGE",
+        "RECORD_AUDIO",
+        "SYSTEM_ALERT_WINDOW",
+        "VIBRATE",
+        "WRITE_CONTACTS",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_NETWORK_STATE",
+        "BLUETOOTH",
+        "WAKE_LOCK"
+      ],
+      "package": "com.soeren321.expoejected"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

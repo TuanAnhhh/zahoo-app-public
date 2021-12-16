@@ -1,0 +1,22 @@
+--- Linux -  Phân quyền folder
+ls -la: kiểm tra permission của thư mục
+Thứ tự phân quyền: user/group/other
+*Giải thích kí hiệu:  d: thư mục, r: quyền read, w: quyền write, x: quyền execute, -: no permission
+0:  ---
+1: --x
+2: -w-
+3: -wx
+4: r--
+5: r-x
+6: rw-
+7: rwx
+chmod -Rf <quyen> <ten_thu_muc>: cho <ten_thu_muc> có quyền gì. Vd: chmod -Rf 777 folder_name
+chown -Rf <ten_user>:<ten_nhom> <ten_thu_muc>: Set ai là chủ của thư
+
+
+docker run -p 8080:8080 -p 50000:50000 -u 1000:998 -v /home/jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock -v $(which docker):$(which docker) --name my_jenkins  -d jenkins/jenkins:lts-jdk11
+
+ssh-keygen -p -N "" -m pem -f <vi_tri_key>: chuyển OPENSSL => RSA
+
+
+sudo chmod 777 /var/run/docker.sock
